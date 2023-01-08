@@ -14,18 +14,20 @@ reduced functionality of MicroPython.
 
 # The Inspiration
 
-Good entry point is the [Volkszähler](https://volkszaehler.org/) project (German)
+* Good entry point is the [Volkszähler](https://volkszaehler.org/) project (German)
 
-Full spec [Technische Richtlinie BSI TR-03109-1](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03109/TR-03109-1_Anlage_Feinspezifikation_Drahtgebundene_LMN-Schnittstelle_Teilb.pdf?__blob=publicationFile)
+* Full spec [Technische Richtlinie BSI TR-03109-1](https://www.bsi.bund.de/SharedDocs/Downloads/DE/BSI/Publikationen/TechnischeRichtlinien/TR03109/TR-03109-1_Anlage_Feinspezifikation_Drahtgebundene_LMN-Schnittstelle_Teilb.pdf?__blob=publicationFile)
  (German)
 
-List of [OBIS codes](https://www.promotic.eu/en/pmdoc/Subsystems/Comm/PmDrivers/IEC62056_OBIS.htm)
+* List of [OBIS codes](https://www.promotic.eu/en/pmdoc/Subsystems/Comm/PmDrivers/IEC62056_OBIS.htm)
 
-Deconstruction of the protocol with the setup of the [SML IR interface](https://www.stefan-weigert.de/php_loader/sml.php) (Gernam)
+* Deconstruction of the protocol with the setup of the [SML IR interface](https://www.stefan-weigert.de/php_loader/sml.php) (Gernam)
 This helped a lot to understand the protocol.
 
 This python script is in fact a light version of [smllib](https://github.com/spacemanspiff2007/SmlLib).
 Removing a lot of functionality (and convenience) to be able to run it on micropython.
+
+Use the smllib to analyse the raw messages from your eMeter to extract the available OBIS codes.
 
 # The Script
 
