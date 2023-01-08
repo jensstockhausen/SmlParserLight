@@ -38,7 +38,7 @@ The scrip fulfills two tasks.
 2) Once a frame is returned by get_frame() the entries can be extracted by using the
    sml_get_entry() function.
 
-The entry contains all 7 components, (None is they are not set)
+The entry contains all 7 components, (None if they are not set)
 
 # The Usage
 
